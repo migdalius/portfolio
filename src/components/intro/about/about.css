@@ -1,0 +1,132 @@
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.a-left {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  height: 100%;
+}
+
+.a-right {
+  flex: 1;
+}
+
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #222;
+}
+.a-card {
+  width: 100%;
+  height: 100vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.a-award-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.a-title {
+  font-weight: 400;
+}
+
+.a-sub {
+  margin: 20px 0px;
+}
+
+.a-desc {
+  font-weight: 300;
+}
+
+.a-award {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.a-award-texts {
+  width: 70%;
+}
+
+.a-award-title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.hr-primary {
+  margin-left: 20% !important;
+  margin-right: 20% !important;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #59b256;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.move-iframe {
+  margin: 10px;
+  width: 400px;
+  height: 315px;
+  border-radius: 10px;
+}
+
+.movie-bg {
+  display: flex;
+  background-color: #59b256;
+  width: 800px;
+  height: 335px;
+  border-radius: 10px;
+}
+
+.mov-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mov-desc {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 400px;
+  color: #e7ebea;
+}
+
+.move-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #e7ebea;
+}
+
+.move-hr {
+  width: 80%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+  margin-bottom: 10px;
+}
