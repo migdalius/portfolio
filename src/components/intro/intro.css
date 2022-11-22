@@ -150,24 +150,6 @@
 
 /* MOBILE VERSION */
 
-@media screen and (max-width: 480px) {
-  .i {
-    flex-direction: column;
-  }
-
-  .i-left-wrapper {
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    height: 100%;
-  }
-
-  .i-desc {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 1165px) {
   .i-bg {
     clip-path: polygon(0% 2%, 60% 10%, 95% 80%, 0% 60%);
@@ -182,6 +164,12 @@
 
 @media screen and (max-width: 965px) {
   .i-bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .i-right {
     display: none;
   }
 }

@@ -22,7 +22,7 @@ const ProductList = () => {
         <div className="pl-title-container">
           <h3 className="pl-title">Szybkauprawa.pl</h3>
         </div>
-        <a href="https://github.com/migdalius/szybkauprawa_v1" target="_blank">
+        <a href="https://github.com/migdalius/szybkauprawa_pl" target="_blank">
           <div className="link-container link-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
