@@ -1,6 +1,7 @@
 .i {
   display: flex;
   height: 100vh;
+  overflow: hidden;
 }
 
 .i-left {
@@ -171,5 +172,8 @@
 @media screen and (max-width: 510px) {
   .i-right {
     display: none;
+  }
+  .i {
+    width: 100vw;
   }
 }
