@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 .pl-texts {
@@ -13,6 +12,10 @@
 .pl-title {
   font-size: 50px;
   font-weight: 600;
+}
+.pl-title-container {
+  display: flex;
+  justify-content: center;
 }
 
 .pl-desc {
@@ -176,6 +179,8 @@
 }
 
 .pl-title-h2 {
+  display: flex;
+  justify-content: center;
   font-size: 30px;
 }
 
@@ -221,8 +226,8 @@
 
 .img-product-container-small {
   position: absolute;
-  bottom: -3780px;
-  right: 330px;
+  bottom: -3200px;
+  right: 360px;
 }
 
 .img-label {
@@ -234,8 +239,8 @@
 .img-label-second {
   width: 400px;
   position: absolute;
-  top: 5050px;
-  left: 300px;
+  top: 4500px;
+  left: 250px;
   border-radius: 10px;
   border: 2px solid #ddd;
 }

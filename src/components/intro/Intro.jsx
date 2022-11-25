@@ -43,7 +43,9 @@ const Intro = () => {
         <div className="i-left-wrapper">
           <h1 className="i-intro">Cześć, jestem Wojtek </h1>
           <div className="intro-cv">
-            <button className="btn-primary">Pobierz CV</button>
+            <a href="../img/cv_wojciech_nowak.pdf" target="_blank">
+              <button className="btn-primary">Pobierz CV</button>
+            </a>
           </div>
           <div className="i-desc">O mnie</div>
           <p>
