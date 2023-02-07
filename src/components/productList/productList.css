@@ -105,6 +105,11 @@
   height: 50px;
   filter: grayscale(100%);
 }
+.pr-img-long {
+  width: 150px;
+  height: 50px;
+  filter: grayscale(100%);
+}
 
 .tech-list {
   display: flex;
@@ -214,6 +219,10 @@
 
 .img-product-container {
   margin-bottom: 100px;
+}
+.img-sklep-container {
+  display: flex;
+  justify-content: center;
 }
 
 .img-product-list-small {

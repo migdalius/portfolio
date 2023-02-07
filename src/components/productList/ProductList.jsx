@@ -20,24 +20,9 @@ const ProductList = () => {
     <div className="pl">
       <div className="pl-texts">
         <div className="pl-title-container">
-          <h3 className="pl-title">Szybkauprawa.pl - strona</h3>
+          <h3 className="pl-title">Szybkauprawa.pl</h3>
         </div>
-        <a href="https://github.com/migdalius/szybkauprawa_pl" target="_blank">
-          <div className="link-container link-1">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-github"
-              viewBox="0 0 16 16"
-              className="boostrap-icons"
-            >
-              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-            </svg>
-            <div className="link">Repozytorium projektu</div>
-          </div>
-        </a>
+
         <a href="https://www.szybkauprawa.pl/" target="_blank">
           <div className="link-container link-2">
             <svg
@@ -167,22 +152,118 @@ const ProductList = () => {
           className="img-product-list-small"
         />
       </div>
+
+      <div className="pl-texts ">
+        <div className="pl-title-container">
+          <h3 className="pl-title">sklep.szybkauprawa.pl</h3>
+        </div>
+        <div className="tech-container">
+          <div className="tech-title">Technologie użyte:</div>
+          <div className="tech-list">
+            <div>
+              <img src="../img/html.png" alt="" className="pr-img" />
+            </div>
+            <div>
+              <img src="../img/css.png" alt="" className="pr-img" />
+            </div>
+            <div>
+              <img src="../img/js.png" alt="" className="pr-img" />
+            </div>
+            <div>
+              <img src="../img/react.png" alt="" className="pr-img" />
+            </div>
+            <div>
+              <img src="../img/firebase.png" alt="" className="pr-img" />
+            </div>
+            <div>
+              <img src="../img/node.png" alt="" className="pr-img" />
+            </div>
+            <div>
+              <img src="../img/mongodb.png" alt="" className="pr-img-long" />
+            </div>
+          </div>
+          <div className="copy"> Projekt nie został jeszcze ukończony</div>
+        </div>
+        <div className="target-container">
+          <span className="target-web">Cel strony :</span> sprzedaż produktów
+          firmy dla klientów B2C
+        </div>
+
+        <p className="pl-desc">
+          Frond-end został wykonany w react.js, styled components, Back-end
+          został wykonany w node.js (express.js), firebase użyłem do
+          przechowywania zdjęć produktów, monodb przechowuje dane użytkowników,
+          wszystkie produkty i zawartość koszyka dla każdego klienta.
+        </p>
+      </div>
+
+      <div className="img-sklep-container">
+        <img src="../img/home.png" alt="" className="img-product-list" />
+      </div>
+
       <section className="pl admin-main-container">
         <div className="pl-texts ">
-          <h3 className="pl-title-h2">Etykiety produktowe (Illustrator)</h3>
+          <h3 className="pl-title-h2">Listing produktów</h3>
           <p className="pl-desc">
-            Zaprojektowanie wyglądu i przygotowanie 115 unikalnych etykiet
-            produktowych dla zestawów uprawowych.
+            React pobiera wszystkie produkty z back-endu za pomocą api i bazy
+            danych mongo db, wszystkie produkty są dodawane bezpośrednio w
+            panelu administracyjnym.
           </p>
           <hr class="hr-primary" />
         </div>
       </section>
-      <div className="label-container">
-        <img src="../img/etykiety_1.jpg" alt="" className="img-label" />
+      <div className="img-sklep-container">
+        <img
+          src="../img/product_list.png"
+          alt=""
+          className="img-product-list"
+        />
       </div>
-      <div>
-        <img src="../img/ilu_1.png" alt="" className="img-label-second" />
+      <section className="pl admin-main-container">
+        <div className="pl-texts ">
+          <h3 className="pl-title-h2">Szczegóły produktu</h3>
+          <p className="pl-desc">
+            Obecnie każdy produkt posiada tylko 1 zdjęcie (domyślnie będzie to
+            do 12 zdjęć) istnieje już możliwość dodania produktu do koszyka, za
+            stan koszyka i jego wartość odpowiada Redux.
+          </p>
+          <hr class="hr-primary" />
+        </div>
+      </section>
+      <div className="img-sklep-container">
+        <img
+          src="../img/detail_product.png"
+          alt=""
+          className="img-product-list"
+        />
       </div>
+      <section className="pl admin-main-container">
+        <div className="pl-texts ">
+          <h3 className="pl-title-h2">Koszyk produktu</h3>
+          <p className="pl-desc">
+            Koszyk produktu wyświetla wszystkie dodane produkty, łącznie z kwotą
+            i łączną sumą do zapłaty.
+          </p>
+          <hr class="hr-primary" />
+        </div>
+      </section>
+      <div className="img-sklep-container">
+        <img src="../img/cart.png" alt="" className="img-product-list" />
+      </div>
+      <section className="pl admin-main-container">
+        <div className="pl-texts ">
+          <h3 className="pl-title-h2">Panel klienta i Panel administracyjny</h3>
+          <p className="pl-desc">
+            Niestety z uwagi na dane poufne nie mogę pokazać panelu klienta i
+            panelu administracyjnego na screenach. Panel administracyjny obecnie
+            pobiera z back-endu informacje o nowo zarejestrowanych
+            użytkownikach, o najnowszych transakcjach które miały miejsce,
+            wyświetla listę produktów w sklepie i daje możliwość dodania
+            produktu do sklepu.
+          </p>
+          <hr class="hr-primary" />
+        </div>
+      </section>
     </div>
   );
 };
