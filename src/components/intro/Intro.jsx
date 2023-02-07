@@ -22,6 +22,11 @@ const stacks = [
     name: "React",
     img: "../img/react.png",
   },
+  {
+    id: 5,
+    name: "GitHub",
+    img: "../img/git.png",
+  },
 ];
 
 const additionals = [
@@ -49,16 +54,15 @@ const Intro = () => {
           </div>
           <div className="i-desc">O mnie</div>
           <p>
-            Jestem front-end developerem. Jako początkujący programista
-            stworzyłem responsywną aplikację pozwalającą na łatwą interakcję z
+            Jestem front-end developerem. Jako pierwszą aplikację komercyjną
+            stworzyłem responsywną stronę pozwalającą na łatwą interakcję z
             instrukcjami do uprawy. Aplikacja posiada wbudowany system CMS
-            wykorzystujący CRUD. Moim celem jest skupianie się na wyglądzie i
-            przejrzystości każdej tworzonej aplikacji za pomocą kodu i programów
-            graficznych.
+            wykorzystujący CRUD. Obecnie pracuje nad sklepem internetowym
+            opartym o react i node.js(express.js)
           </p>
           <div>
             <div className="intro-second-title intro-hr">
-              Stack technologiczny
+              W swojej pracy używam
             </div>
             <div className="stack-flex">
               {stacks.map((stack) => (
