@@ -24,6 +24,11 @@ const stacks = [
   },
   {
     id: 5,
+    name: "Redux",
+    img: "../img/redux.svg",
+  },
+  {
+    id: 6,
     name: "GitHub",
     img: "../img/git.png",
   },
