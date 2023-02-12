@@ -29,7 +29,7 @@ const stacks = [
   },
   {
     id: 6,
-    name: "GitHub",
+    name: "Git",
     img: "../img/git.png",
   },
 ];
